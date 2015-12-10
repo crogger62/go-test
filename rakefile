@@ -1,0 +1,9 @@
+task :default => 'build:hello'
+
+namespace :build do
+	task :hello do
+		sh 'cc -c -o hello.o hello.c'
+		sh 'cc -o hello hello.o'
+	end
+end
+
