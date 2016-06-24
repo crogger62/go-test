@@ -1,4 +1,4 @@
 #include <stdio.h>
 main() {
-printf("Hello yet again worlds on xmas eve! from github!\n");
+printf("Hello yet again - testing Go - June 24 2016 @ 1:51pm\n");
 }
